@@ -232,6 +232,56 @@ section.section-1 {
   display: block;
 }
 
+.section-cards {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-card {
+  padding: 20px;
+  border: 1px solid rgb(173, 179, 159);
+  width: 30%;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.card-head-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px
+}
+
+.card-head-text span {
+  color: #4d13d1;
+  font-weight: bold;
+}
+
+.card-btn {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.card-btn button {
+  background-color: transparent;
+  border: 1px solid rgb(173, 179, 159);
+  width: 100%;
+  padding: 15px 0;
+  font-weight: 800;
+  color: #4d13d1;
+  border-radius: 5px;
+}
+
+
 
 @media (max-width: 908px) {
   .section-1-main {
@@ -301,6 +351,17 @@ section.section-1 {
 
   .section-3-img {
     width: 90%;
+  }
+}
+
+@media (max-width: 786px) {
+  .section-cards {
+    flex-direction: column;
+  }
+
+  .main-card {
+    width: 100%;
+    margin-top: 40px;
   }
 }
 
