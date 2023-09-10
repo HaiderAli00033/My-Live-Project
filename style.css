@@ -221,6 +221,19 @@ section.section-1 {
   .checkmarks {
     flex-direction: column;
   }
+
+  .section-2-content {
+    width: 100%;
+  }
+
+  .sec-2-card {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 70%;
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -228,5 +241,9 @@ section.section-1 {
         width: 100%;
         height: auto;
         margin-bottom: 2em;
+      }
+
+      .card {
+        width: 100%;
       }
 }
