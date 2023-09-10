@@ -176,7 +176,9 @@ section.section-1 {
 
 .sec-2-card-img {
   padding-bottom: 10px;
+  padding: 10g0px;
 }
+
 
 @media (max-width: 908px) {
   .section-1-main {
