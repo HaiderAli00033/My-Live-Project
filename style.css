@@ -382,6 +382,12 @@ section.section-1 {
   line-height: 1.2;
 }
 
+@media(min-width: 908px) {
+  .nav-mob {
+    visibility: visible;
+  }
+}
+
 @media (max-width: 908px) {
   .section-1-main {
     flex-direction: column-reverse;
@@ -499,4 +505,10 @@ section.section-1 {
       .section-3-btn button {
         width: 100%;
       }
+}
+
+@media screen and (min-width: 909px) {
+  .nav-mob {
+    display: none;
+  }
 }
